@@ -18,6 +18,6 @@ Leaflet Full view Canvas Overlay - straightforward full screen canvas overlay th
 Other useful full view  Leaflet Canvas sources here:
 - Full Canvas [https://github.com/cyrilcherian/Leaflet-Fullcanvas]
 - CartoDb Leaflet.Canvas : [https://github.com/CartoDB/Leaflet.CanvasLayer]
-- 
+ 
 
 
