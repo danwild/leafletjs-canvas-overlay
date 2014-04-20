@@ -3,7 +3,7 @@ Mostly extracted from here: [https://github.com/Leaflet/Leaflet.heat] added resi
 
 		//Example:
 		L.canvasOverlay()
-		   .params({data: points})     // add any custom data that will be passed to draw funciton
+		   .params({data: points})     // optional add any custom data that will be passed to draw function
 	           .drawing(drawingOnCanvas)   // set drawing function
 	           .addTo(leafletMap);         // add this layer to leaflet map
 	            

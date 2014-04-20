@@ -31,7 +31,6 @@
             .addTo(leafletMap);
 
         L.canvasOverlay()
-            .params({data: points})
             .drawing(drawingOnCanvas)
             .addTo(leafletMap);
 
@@ -39,7 +38,7 @@
             var ctx = params.canvas.getContext('2d');
             ctx.clearRect(0, 0, params.canvas.width, params.canvas.height);
             ctx.fillStyle = "rgba(255,116,0, 0.2)";
-            params.options.data.map(function (d, i) {
+            data.map(function (d, i) {
                 if (params.bounds.contains([d[0], d[1]])) {
                     dot = canvasOverlay._map.latLngToContainerPoint([d[0], d[1]]);
                     ctx.beginPath();
