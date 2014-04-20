@@ -1,6 +1,6 @@
 Leaflet Canvas Overlay - straightforward full screen canvas overlay that calls custom user function for drawing
 
-Example:
+		//Example:
 		L.canvasOverlay()
 		   .params({data: points})     // add any custom data that will be passed to draw funciton
 	           .drawing(drawingOnCanvas)   // set drawing funciton
