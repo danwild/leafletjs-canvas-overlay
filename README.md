@@ -1,4 +1,4 @@
-Leaflet Canvas Overlay - straightforward full screen canvas overlay that calls custom user function for drawing
+Leaflet Full view Canvas Overlay - straightforward full screen canvas overlay that calls custom user function for drawing
 
 		//Example:
 		L.canvasOverlay()
@@ -15,7 +15,9 @@ Leaflet Canvas Overlay - straightforward full screen canvas overlay that calls c
 		            });
 		        };
 
-Other useful Leaflet Canvas sources here:
-(Full Canvas) [https://github.com/cyrilcherian/Leaflet-Fullcanvas]
+Other useful full view  Leaflet Canvas sources here:
+- Full Canvas [https://github.com/cyrilcherian/Leaflet-Fullcanvas]
+- CartoDb Leaflet.Canvas : [https://github.com/CartoDB/Leaflet.CanvasLayer]
+- 
 
 
