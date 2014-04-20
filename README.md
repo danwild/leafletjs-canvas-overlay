@@ -11,8 +11,11 @@ Leaflet Canvas Overlay - straightforward full screen canvas overlay that calls c
 			function drawingOnCanvas(canvasOverlay, params) {
 		            var ctx = params.canvas.getContext('2d');
 		            params.options.data.map(function (d, i) {
-		            
 		              // canvas drawing goes here
-		            
 		            });
 		        };
+
+Other useful Leaflet Canvas sources here:
+(Full Canvas) [https://github.com/cyrilcherian/Leaflet-Fullcanvas]
+
+
