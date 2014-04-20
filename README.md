@@ -1,9 +1,10 @@
-Leaflet Full view Canvas Overlay - straightforward full screen canvas overlay that calls custom user function for drawing
+Leaflet Full view Canvas Overlay - straightforward full screen canvas overlay that calls custom user function for drawing.
+Mostly extracted from here: [https://github.com/Leaflet/Leaflet.heat] added resize and few other parameters for callback
 
 		//Example:
 		L.canvasOverlay()
 		   .params({data: points})     // add any custom data that will be passed to draw funciton
-	           .drawing(drawingOnCanvas)   // set drawing funciton
+	           .drawing(drawingOnCanvas)   // set drawing function
 	           .addTo(leafletMap);         // add this layer to leaflet map
 	            
 
@@ -14,8 +15,19 @@ Leaflet Full view Canvas Overlay - straightforward full screen canvas overlay th
 		              // canvas drawing goes here
 		            });
 		        };
+		        
+		// parameters passed to custom draw function :
+		 {
+                                    canvas   : <canvas>,
+                                    bounds   : <bounds in WGS84>
+                                    size     : <view size>,
+                                    zoomScale: <zoom scale is  1/resolution>,
+                                    zoom     : <current zoom>,
+                                    options  : <options passed >
+                 };
 
 Other useful full view  Leaflet Canvas sources here:
+- leaflet.heat [https://github.com/Leaflet/Leaflet.heat]
 - Full Canvas [https://github.com/cyrilcherian/Leaflet-Fullcanvas]
 - CartoDb Leaflet.Canvas : [https://github.com/CartoDB/Leaflet.CanvasLayer]
  
