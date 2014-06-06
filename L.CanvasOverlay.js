@@ -27,6 +27,11 @@ L.CanvasOverlay = L.Class.extend({
         L.setOptions(this, options);
         return this;
     },
+    
+    canvas: function () {
+        return this._canvas;
+    },
+
     redraw: function () {
         if (!this._frame) {
             this._frame = L.Util.requestAnimFrame(this._redraw, this);
