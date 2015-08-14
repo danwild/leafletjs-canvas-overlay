@@ -1,5 +1,6 @@
 Leaflet Full view Canvas Overlay - straightforward full screen canvas overlay that calls custom user function for drawing.
 Mostly extracted from here: [https://github.com/Leaflet/Leaflet.heat] added resize and few other parameters for callback
+Compare to same data SVG rendering here: http://bl.ocks.org/Sumbera/7e8e57368175a1433791 
 
 		//Example:
 		L.canvasOverlay()
