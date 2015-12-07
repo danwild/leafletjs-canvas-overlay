@@ -7,6 +7,7 @@
   - fixed resize map bug
   inspired & portions taken from  :   https://github.com/Leaflet/Leaflet.heat
   
+  License: MIT
 
 */
 
