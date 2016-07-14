@@ -1,6 +1,6 @@
 {
   "name": "leafletjs-canvas-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm wrapper for Leaflet Canvas Overlay, by Sumbera https://github.com/Sumbera",
   "main": "L.CanvasOverlay.js",
   "scripts": {
